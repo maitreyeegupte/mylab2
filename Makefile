@@ -40,4 +40,4 @@ stream:
 	-mapper Mapper.py \
 	-reducer Reducer.py \
 	-file Mapper.py -file Reducer.py \
-	-input input -output stream-output
+	-input /user/maitreyee/gutenberg.txt -output stream-output
